@@ -50,4 +50,7 @@
                     display: flex;
                     gap: 24px;
 }
+.work-examples{
+    display: flex;
+}
 }

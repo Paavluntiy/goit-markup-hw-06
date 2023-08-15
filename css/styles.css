@@ -345,6 +345,7 @@ margin-bottom: 72px;
 }
 .work-examples{
     padding-bottom: 120px;
+    display: none;
 }
 .work-examples-item {
     list-style-type: none;
