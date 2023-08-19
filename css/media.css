@@ -46,6 +46,9 @@
             margin-bottom: 48px;
     
         }
+        .open-menu{
+            display: none;
+        }
     .section-workers{
         max-width: 584px;
     }
@@ -64,10 +67,17 @@
         gap: 72px 24px;
         margin: 0 auto;
     }
+    .about-team{
+      text-align: center;
+      margin-left: 0;
+    }
     .workers-list-item{
         width: calc((100% - 24px) / 2 );
         margin-bottom: 0;
         margin: 0 auto;
+    }
+    .footer{
+        width: 768px;
     }
     .all-footer{
         flex-wrap: wrap;
@@ -84,6 +94,7 @@
         }
          .footer-logo-link {
                     display: inline-block;
+                    margin-left: 0;
                 }
         
                 .footer-social-links-text {
@@ -128,7 +139,7 @@
             letter-spacing: 0.02em;
         }
         .header-feedback-item{
-            gap: 12px;
+            margin-bottom: 12px;
         }
         .header-logo-link{
             margin-right: 120px;
@@ -139,6 +150,10 @@
         .hero-title{
             margin-bottom: 36px;
             padding-bottom: 0;
+            width: 496px;
+        }
+        .hero-button{
+            margin: 0 auto;
         }
         .advantages-topics{
             text-align: left;
@@ -187,7 +202,14 @@
             margin: 0 auto;
             margin-bottom: 48px;
             padding-bottom: 0;
+            width: 496px;
         }
+        .hero-button{
+            margin: 0 auto;
+        }
+                .open-menu {
+                    display: none;
+                }
     .advantages-list-item{
         width: calc((100% - 72px) / 4);
     }
@@ -218,6 +240,10 @@
                     list-style-type: none;
                     display: flex;
                     gap: 24px;
+}
+.about-team {
+    text-align: center;
+    margin-left: 0;
 }
 .work-examples{
     display: block;
@@ -267,12 +293,16 @@
 .workers{
     padding: 120px 0 120px;
 }
+.footer{
+    width: 1440px;
+}
 .all-footer {
     flex-wrap: nowrap;
 
 }
 .footer-logo-link{
     display: inline-block;
+    margin-left: 0;
 }
 .footer-social-links-text{
     margin-left: 0;
