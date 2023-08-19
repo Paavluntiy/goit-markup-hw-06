@@ -3,7 +3,7 @@
 
 
 
- @media screen and (min-width: 320px) and (max-width: 767px) {
+ @media screen and (min-width: 320px) and (max-width: 428px) {
     .container {
         max-width: 428px;
     }
@@ -19,7 +19,33 @@
         max-width: 768px;
         padding-left: 16px;
             padding-right: 16px;
+            width: 768px;
     }
+        .section {
+            width: 768px;
+            padding-left: 16px;
+            padding-right: 16px;
+            margin: 0 auto;
+            padding-left: 16px;
+                padding-right: 16px;
+        }
+    .hero{
+        max-width: 768px;
+        width: 768px;
+        height: 436px;
+    }
+        .hero-title {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.07;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: var(--primary-white-color);
+            max-width: 496px;
+            margin: 0 auto;
+            margin-bottom: 48px;
+    
+        }
     .section-workers{
         max-width: 584px;
     }
@@ -36,9 +62,12 @@
     .advantages-list{
         display: flex;
         gap: 72px 24px;
+        margin: 0 auto;
     }
     .workers-list-item{
         width: calc((100% - 24px) / 2 );
+        margin-bottom: 0;
+        margin: 0 auto;
     }
     .all-footer{
         flex-wrap: wrap;
@@ -46,7 +75,6 @@
     }
     .footer-sub{
         margin-left: 0;
-        margin-top: 72px;
     }
     .logo-footer{
         margin-right: 24px;
@@ -54,9 +82,44 @@
         .footer-social {
             margin-left: 0;
         }
+         .footer-logo-link {
+                    display: inline-block;
+                }
+        
+                .footer-social-links-text {
+                    margin-left: 0;
+                }
+        
+                .footer-social-links {
+                    margin-left: 0;
+                }
+        
+                .modal-footer-field {
+                    flex-wrap: nowrap;
+                }
+        
+                .modal-footer-input {
+                    width: 264px;
+                    height: 40px;
+                }
+        
+                .footer-sub-text {
+                    text-align: left;
+                }
+        
+                .footer-button {
+                    margin-left: 0;
+                }
+        
+                .footer-text {
+                    margin-left: 0;
+                }
         .header-feedback-list{
             display: block;
             gap: 12px;
+        }
+        .header-about-list{
+            display: flex;
         }
         .header-feedback-link{
             font-size: 12px;
@@ -75,6 +138,7 @@
         }
         .hero-title{
             margin-bottom: 36px;
+            padding-bottom: 0;
         }
         .advantages-topics{
             text-align: left;
@@ -84,6 +148,7 @@
         }
         .workers-list{
             gap: 64px 24px;
+            display: flex;
         }
         .advantages-topic{
             font-size: 20px;
@@ -95,7 +160,34 @@
 @media screen and (min-width: 1158px){
     .container{
         max-width: 1158px;
+        padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 auto;
+            width: 1158px;
     }
+        .section {
+            width: 1158px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0 auto;
+        }
+    .hero{
+        max-width: 1440px;
+        width: 1440px;
+            height: 600px;
+    }
+        .hero-title {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 1.07;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: var(--primary-white-color);
+            max-width: 496px;
+            margin: 0 auto;
+            margin-bottom: 48px;
+            padding-bottom: 0;
+        }
     .advantages-list-item{
         width: calc((100% - 72px) / 4);
     }
@@ -130,6 +222,12 @@
 .work-examples{
     display: block;
 }
+.section-workers {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .customers-item {
     width: calc((100% - 5 * 24px) / 6)
 }
@@ -148,5 +246,57 @@
 }
 .footer-sub {
     margin-left: 80px;
+}
+.header-about-list {
+    display: flex;
+}
+.header-logo-link{
+    margin-right: 76px;
+}
+.header-feedback-list{
+    display: flex;
+}
+.workers-list{
+    display: flex;
+}
+.workers-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+    margin-bottom: 0;
+    margin: 0 auto;
+}
+.workers{
+    padding: 120px 0 120px;
+}
+.all-footer {
+    flex-wrap: nowrap;
+
+}
+.footer-logo-link{
+    display: inline-block;
+}
+.footer-social-links-text{
+    margin-left: 0;
+}
+.footer-social-links{
+    margin-left: 0;
+}
+.footer-sub {
+    margin-left: 80px;
+}
+.modal-footer-field{
+    flex-wrap: nowrap;
+}
+.modal-footer-input{
+width: 264px;
+    height: 40px;
+}
+.footer-sub-text{
+    text-align: left;
+}
+.footer-button{
+    margin-left: 0;
+}
+.footer-text{
+    margin-left: 0;
 }
 }
