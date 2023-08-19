@@ -211,7 +211,7 @@ align-items: center;
     padding: 112px 54px 240px;
     background-color: var(--primary-accent-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-                rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+                rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
                 max-width: 1140px;
                 width: 428px;
                 height: 432px;
@@ -219,6 +219,15 @@ align-items: center;
                 background-position: center;
                 background-size: cover;
                 margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg-mob-2x.jpg);
+    }
 }
 .hero-title {
     font-size: 36px;
@@ -1116,7 +1125,6 @@ background-color: var(--secondary-accent-color);
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-        margin-bottom: 48px;
 }
 .menu-feedback-link{
 font-size: 36px;
