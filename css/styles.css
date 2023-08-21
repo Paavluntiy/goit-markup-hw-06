@@ -189,11 +189,11 @@ content: "";
     box-sizing: border-box;
 }
 .container{
-    width: 428px;
+    max-width: 1158px;
+    width: 100%;
     padding-left: 16px;
     padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     
 }
 .flex{
@@ -201,7 +201,8 @@ content: "";
 align-items: center;
 }
 .section{
-    width: 428px;
+    max-width: 1158px;
+    width: 100%;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
@@ -213,7 +214,6 @@ align-items: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
                 max-width: 1140px;
-                width: 100%;
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;

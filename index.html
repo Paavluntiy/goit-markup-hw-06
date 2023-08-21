@@ -36,7 +36,7 @@
                 </li>
             </ul>
         </address>
-        <button type="button" class="open-menu" data-modal-open>
+        <button type="button" class="open-menu" data-menu-open>
             <svg class="svg-menu" 
             aria-label="mobile-menu-open"
             width="32"
@@ -46,9 +46,9 @@
             </svg>
         </button>
         </div>
-        <div class="mobile-menu is-hidden" data-modal>
+        <div class="mobile-menu is-hidden" data-menu>
             <div class="modal-mob">
-                <button class="button-modal" type="button" data-modal-close>
+                <button class="button-modal" type="button" data-menu-close>
                     <svg class="svg-modal" width="8" height="8">
                         <use class="but-hov" href="./images/icons.svg#icon-close"></use>
                     </svg>
@@ -64,6 +64,8 @@
                         <a href="" class="menu-item-link">Contacts</a>
                     </li>
                 </ul>
+            </div>
+            <div>
                 <ul class="menu-feedback-list list">
                     <li class="header-feedback-item">
                         <a class="menu-feedback-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
@@ -111,7 +113,7 @@
                 <div class="hero-title-wrap container">
             <h1 class="hero-title">Effective Solutions
                 for Your Business</h1>
-            <button type="button" class="hero-button" data-modal-open>Order Service</button>
+            <button type="button" class="hero-button" data-modal-open >Order Service</button>
                 </div>
             
         </section>
@@ -193,7 +195,7 @@
             <h2 id="contact" class="about-team">Our Team</h2>
             <ul class="workers-list list">
                 <li class="workers-list-item list">
-                    <img src="./images/teamcard1.jpg" width="264" alt="Mark Guerrero" />
+                    <img src="./images/teamcard1.jpg" srcset="./images/teamcard1.jpg 1x, ./images/teamcard1-2.jpg 2x" width="264" alt="Mark Guerrero" />
                     <div class="section-team">
                     <h3 class="advantages-topic">Mark Guerrero</h3>
                     <p class="workers-item-text">Product Designer</p>
@@ -230,7 +232,7 @@
                     </div>
                 </li>
                 <li class="workers-list-item list">
-                    <img src="./images/teamcard2.jpg" width="264" alt="Tom Ford" />
+                    <img src="./images/teamcard2.jpg" srcset="./images/teamcard2.jpg 1x, ./images/teamcard2-2.jpg 2x" width="264" alt="Tom Ford" />
                     <div class="section-team">
                      <h3 class="advantages-topic">Tom Ford</h3>
                     <p class="workers-item-text">Frontend Developer</p>
@@ -268,7 +270,7 @@
                     </div>
                 </li>
                 <li class="workers-list-item list">
-                    <img src="./images/teamcard3.jpg" width="264" alt="Camila Garcia" />
+                    <img src="./images/teamcard3.jpg" srcset="./images/teamcard3.jpg 1x, ./images/teamcard3-2.jpg 2x" width="264" alt="Camila Garcia" />
                     <div class="section-team">
                     <h3 class="advantages-topic">Camila Garcia</h3>
                     <p class="workers-item-text">Marketing</p>
@@ -305,7 +307,7 @@
                     </div>
                 </li>
                 <li class="workers-list-item list">
-                    <img src="./images/teamcard4.jpg" width="264" alt="Daniel Wilson" />
+                    <img src="./images/teamcard4.jpg" srcset="./images/teamcard4.jpg 1x, ./images/teamcard4-2.jpg 2x" width="264" alt="Daniel Wilson" />
                     <div class="section-team">
                     <h3 class="advantages-topic">Daniel Wilson</h3>
                     <p class="workers-item-text">UI Designer</p>
@@ -527,7 +529,7 @@
                 </div>
             </div>
             <script src="./js/modal.js"></script>
-            <script src="./js/mobile-menu.js"></script>
+            <script src="./mobile-menu.js"></script>
 </body>
 
 </html>
