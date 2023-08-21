@@ -1126,7 +1126,6 @@ background-color: var(--secondary-accent-color);
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-    margin-top: 284px;
 }
 .menu-feedback-link{
 font-size: 36px;
