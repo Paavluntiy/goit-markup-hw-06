@@ -92,17 +92,19 @@
         width: calc((100% - 24px) / 2 );
         margin-bottom: 0;
         margin: 0 auto;
-        margin-bottom: 72px;
     }
+        .workers-list-item:not(:last-child) {
+         margin-bottom: 0;
+        }
 
         
     .footer{
-        padding: 0;
+        padding: 96px 0;
     }
     .all-footer{
         flex-wrap: wrap;
         max-width: 584px;
-        padding: 96px 0;
+        
     }
     .footer-sub{
         margin-left: 0;
@@ -124,7 +126,7 @@
         
                 .footer-social-links-text {
                     display: block;
-                    text-align: center;
+                    text-align: left;
                 }
         
                 .footer-social-links {
@@ -365,7 +367,7 @@
 .footer-social-links-text{
     display: block;
     margin-left: 0;
-    text-align: center;
+    text-align: left;
 }
 .footer-social-links{
     margin-left: 0;
@@ -388,6 +390,9 @@ width: 264px;
 }
 .footer-text{
     margin-left: 0;
+}
+.advantages-item-text{
+    font-weight: 400;
 }
 }
 @media screen and (min-width: 320px) and (max-width: 427px) {
