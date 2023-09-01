@@ -204,6 +204,9 @@
         .advantages-item-text{
             font-weight: 500;
         }
+                .section-customers {
+                    width: 584px;
+                }
         
 }
 @media screen and (min-width: 1158px){
